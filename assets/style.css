@@ -1,4 +1,25 @@
+a:link, a:visited {
+    background-color: rgb(100, 161, 158);
+    color: rgb(2, 22, 22);
+    border: 2px solid green;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: rgb(26, 115, 110);
+    color: rgb(212, 130, 130);
+  }
 body {
     background: turquoise;
     font-family:'Times New Roman', Times, serif
+}
+section {
+    background-color: aquamarine;
+}
+.link-container {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-end;
 }
