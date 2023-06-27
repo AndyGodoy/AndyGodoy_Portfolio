@@ -1,7 +1,24 @@
+/* I added a border to my photo */
+.bordered-image {
+    border: 6px solid black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1 {
+    font-family: "Pacifico", cursive; 
+    text-align: center;
+    font-size: 60px;
+    }
+    /* I liked the effect of the links being active/hover */
 a:link, a:visited {
     background-color: rgb(100, 161, 158);
     color: rgb(2, 22, 22);
     border: 2px solid green;
+    border-radius: 10px;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
