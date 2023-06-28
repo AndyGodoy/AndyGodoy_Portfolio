@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* I am still trying to get better at customing my website, but here I attempted a biege/brown type of look if standard font. */
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(185, 185, 185);
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -16,7 +18,10 @@ header {
 
 h1 {
     font-size: 36px;
+    font-family: Arial, sans-serif;
 }
+
+
 
 /* Moved the header links to the right top corner */
 nav {
@@ -33,7 +38,7 @@ nav ul {
 nav li {
     margin: 0 10px;
 }
-
+/* I wanted to add a border to the images the the nav to let it compliment the background. I had to mess around with the padding and radius to get it to my liking. */
 nav a {
     border-radius: 50px;
     padding: 10px 15px;
@@ -54,7 +59,7 @@ nav a:hover {
 }
 
 .container img {
-    border: 7px solid #ccc; 
+    border: 7px solid #c6a580; 
 }
 .work-gallery {
     display: grid;
@@ -66,7 +71,7 @@ nav a:hover {
     transition: transform 0.3s ease;
     width: 100%;
     height: auto;
-    border: 5px solid #ccc;
+    border: 5px solid #c6a580;
     border-radius: 5px; 
 }
 
@@ -88,7 +93,7 @@ nav a:hover {
     padding: 20px;
     margin: 2%;
 }
-
+/* I struggled for a bit to get my footer links to sit on the right bottom corner. Here I am not sure if I could have achieved the same outcome with less code? */
 .footer-nav li {
     margin-right: 10px;
 }
@@ -96,7 +101,7 @@ nav a:hover {
 .footer-nav li:last-child {
     margin-right: 0;
 }
-
+/* Here just tried to match the body images and borders */
 .footer-nav a {
     border-radius: 50px;
     padding: 10px 15px;
