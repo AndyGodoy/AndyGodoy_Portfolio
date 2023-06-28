@@ -57,7 +57,7 @@ nav a:hover {
     padding: 40px;
 
 }
-
+/* I feel like there is a way to add a border to this image by utilizing the .container right above here^ but I could nto figure it out. So I added this additional container  */
 .container img {
     border: 7px solid #c6a580; 
 }
